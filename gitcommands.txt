@@ -19,4 +19,5 @@ working copy | staging Area | repository
 when we creat| git add      | git commit -m ""         | git commit -m(message) "adding blaw blaw blaw blaw"
 
 working directory clean means files in our computer are same as in our repository.
+git diff // it compares the changes b/w working copy and repository copy. not with staging copy and repo copy.
 
