@@ -20,4 +20,22 @@ when we creat| git add      | git commit -m ""         | git commit -m(message) 
 
 working directory clean means files in our computer are same as in our repository.
 git diff // it compares the changes b/w working copy and repository copy. not with staging copy and repo copy.
+git diff --staged // this command compares file b/w staging area and repository.
+git rm filename.ext // removes file from working and repo, after commit.   rm= remove
+git mv file1.ext file2.ext // to rename file1 with new name file2	   mv= move 
+git mv file1.ext newfolder/file2.ext // to rename file1 with new name file2	   mv= move
+git commit -am "commit message" // this command allow us to commit changes from working copy to repository, without any staging satge. 
+				   carfull while using it will commit all the changes.
+git checkout -- file1.ext // if we changed file1 (working copy), and now we want to undu changes, 
+			     we can fetch the copy from repository by this command
+git reset HEAD file1.ext  // this command will pull down the file1 from staging copy to working copy.
+
+git checkout w3e476t --file1.ext   here w3e476t=(commit key numbers from start only few, and last commit which we want to over right)
+				   this commands changes the file1 to any specific version of file1.
+				   storing goes in this fashion :- first commit> second commit> third commit> second commit
+				   commits are just like points in time
+git remot add hello https://github.com/kuldeepkld/agin.git // hello is replacement for https://github.com/kuldeepkld/agin.git 
+				   for further use which means instead of url we will write hello from now.
+git push -u hello master  // now this command will push our local repo content to github server
+
 
