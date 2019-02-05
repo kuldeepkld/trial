@@ -16,5 +16,5 @@ git log// to show all commit histories
 git log --author=”kuldy”// show commits from kuldy 
 
 working copy | staging Area | repository
-when we creat| git add      | git commit -m ""         | git commit -m(message) "adding blaw blaw blaw"
+when we creat| git add      | git commit -m ""         | git commit -m(message) "adding blaw blaw blaw blaw"
 
